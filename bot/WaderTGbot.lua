@@ -646,25 +646,7 @@ Become stickers to photos
 ☣#tosticker☣
 Turn photos into stikers
 =========================
-☣#conv☣[text]
-Text to photos
-=========================
-☣#sticker☣[text]
-Text-to-stickers
-=========================
-☣#wai☣
-To show office user
-=========================
-☣#voice☣[text]
-Text-to-voice
-=========================
-☣*Only from markes "!" , "/" , "#" use*☣
-=========================
-=========================
-based on the tele seed
-☣☣☣☣☣
-@online_anti_spam
-=========================
+☣☣☣based on tele seed☣☣☣
 ]],
   }
   serialize_to_file(config, './data/config.lua')
