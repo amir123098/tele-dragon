@@ -481,185 +481,190 @@ will return group ban list
 channel:@WaderTGTeam
 ]],
 	help_text_super =[[
-tele dragon SuperGroup Commands :
+☣☣☣anti_spam commands☣☣☣ 
 =========================
-#info
+☣#info☣
 About the SuperGroup info
 =========================
-#infull
+☣#infull☣
 About the you infull
 =========================
-#admins
+☣#admins☣
 SuperGroup admins list
 =========================
-#setadmin
+☣#setadmin☣
 Set SuperGroup admins
 =========================
-#owner
+☣#owner☣
 Show owner of SuperGroup
 =========================
-#setowner
+☣#setowner☣
 Set the SuperGroup owner
 =========================
-#modlist
+☣#modlist☣
 Show moderators list
 =========================
-#bots
+☣#bots☣
 List bots in SuperGroup
 =========================
-#bot[lock,unlock]
+☣#bot☣[lock,unlock]
 Bot[lock,unlock] the SuperGroup
 =========================
-#who
+☣#who☣
 List all users in SuperGroup
 =========================
-#block
+☣#block☣
 kick a user from SuperGroup
 +Added user to blocked list+
 =========================
-#ban
+☣#ban☣
 Ban user from the SuperGroup
 +Only with[id+user]+
 =========================
-#unban
+☣#unban☣
 Unban user from the SuperGroup
 +Only with[id+user]+
 =========================
-#id
+☣#id☣
 SuperGroup ID or user ID
 +For user ID:#id @username or reply by: #id+
 =========================
-#id from
+☣#id from☣
 Get ID of user massage is forwarded from
 =========================
-#kickme
+☣#kickme☣
 Kick you from SuperGroup
 =========================
-#promote[@username+id]
+☣#promote☣[@username+id]
 Promote a SuperGroup moderator
 =========================
-#demote[@username+id]
+☣#demote☣[@username+id]
 Demote a SuperGroup moderator
 =========================
-#setname [group name]
+☣#setname ☣[group name]
 Set the chat name
 =========================
-#setphoto
+☣#setphoto☣
 Set the chat photo
-+Then photo and send the+
+☣+Then photo and send the+☣
 =========================
-#setrules[rules]
+☣#setrules☣[rules]
 Set the chat rules
 =========================
-#setabout
+☣#setabout☣
 Set the chat about
 =========================
 #save [value] <text>
 Set extra info for chat
 =========================
-#get[value]
+☣#get☣[value]
 Retrieves extra info for chat by value
 =========================
-#newlink
+☣#newlink☣
 Create group link
 =========================
-#link
+☣#link☣
 Group the link
 =========================
-#linkpv
+☣#linkpv☣
 Send SuperGroup link private
 =========================
-#rules
+☣#rules☣
 Chat the rules
 =========================
-#lock[links+flood+spam+arabic+member+rtl+sticker+contacts+strict+tgservice+forward]
+☣#lock☣[links+flood+spam+arabic+member+rtl+sticker+contacts+strict+tgservice+forward]
 Lock SuperGroup settings
 =========================
-#unlock[links+flood+spam+arabic+member+rtl+sticker+contacts+strict+tgservice+forward]
+☣#unlock☣[links+flood+spam+arabic+member+rtl+sticker+contacts+strict+tgservice+forward]
 Unlock SuperGroup settings
 =========================
-#mute[all+audio+gifs+photo+video+text+service]
+☣#mute☣[all+audio+gifs+photo+video+text+service]
 Mute SuperGroup massage types
 =========================
-#unmute[all+audio+gifs+photo+video+text+service]
+☣#unmute☣[all+audio+gifs+photo+video+text+service]
 Unmute SuperGroup massage types
 =========================
-#setflood[value]
+☣#setflood☣[value]
 Set[value] as flood sensitivity
 =========================
-#settins
+☣#settins☣
 SuperGroup settings
 =========================
-#muteslist
+☣#muteslist☣
 SuperGroup mutes
 =========================
-#muteuser[@username+id]
+☣#muteuser☣[@username+id]
 Mute a user in SuperGroup
-+#muteuser[@username+id]remove mutelist+
+☣+#muteuser[@username+id]remove mutelist+☣
 =========================
-#mutelist
+☣#mutelist☣
 SuperGroup muted user list
 =========================
-#banlist
+☣#banlist☣
 SuperGroup ban list
 =========================
-#clean[rules+about+modlist+mutelist]
+☣#clean☣[rules+about+modlist+mutelist]
 Cleaned
 =========================
-#del
+☣#del☣
 Deletes a massage by reply
 =========================
-#public[yes+no]
+☣#public☣[yes+no]
 Set SuperGroup visibility in pm #chats or #chatlist commands
 =========================
-#res[@username]
+☣#res☣[@username]
 Returns user name and id by @username
 =========================
-#log
+☣#log☣
 Returns SuperGroup logs
 =========================
-#addword[text]
+☣#addword☣[text]
 Added the badword
 +If the desired word is cleared+
 =========================
-#badwords
+☣#badwords☣
 SuperGroup badword list
 =========================
-#rw[text]
+☣#rw☣[text]
 clear[text]from list badword
 =========================
-#clearbadwords
+☣#clearbadwords☣
 Cleaned badword list
 =========================
-#clantag[tag]
+☣#clantag☣[tag]
 Specifications clan a door clsh of clan
 =========================
-#music[truk name]
+☣#music☣[truk name]
 Find songs to
 =========================
-#me
+☣#me☣
 Returns your specifications
 =========================
-#tophoto
+☣#tophoto☣
 Become stickers to photos
 =========================
-#tosticker
+☣#tosticker☣
 Turn photos into stikers
 =========================
-#conv[text]
+☣#conv☣[text]
 Text to photos
 =========================
-#sticker[text]
+☣#sticker☣[text]
 Text-to-stickers
 =========================
-#wai
+☣#wai☣
 To show office user
 =========================
-#voice[text]
+☣#voice☣[text]
 Text-to-voice
 =========================
-*Only from markes "!" , "/" , "#" use*
-tele dragon team
+☣*Only from markes "!" , "/" , "#" use*☣
+=========================
+=========================
+based on the tele seed
+☣☣☣☣☣
+@online_anti_spam
+=========================
 ]],
   }
   serialize_to_file(config, './data/config.lua')
